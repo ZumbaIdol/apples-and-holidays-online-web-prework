@@ -50,9 +50,10 @@ def all_winter_holiday_supplies(holiday_hash)
 
   array = holiday_hash[:winter].collect do |holiday_name, supply|
   supply
-end
+  end
 
-array.flatten
+  array.flatten
+end
 
 def all_supplies_in_holidays(holiday_hash)
   # iterate through holiday_hash and print items such that your readout resembles:
